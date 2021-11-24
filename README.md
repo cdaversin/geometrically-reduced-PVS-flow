@@ -44,8 +44,6 @@ running the corresponding scripts in a Web browser.
 cd geometrically-reduced-PVS-flow/notebooks
 jupyter-notebook
 ```
-Note : The data files used in the notebooks are present in the repository by default, and are re-generated
-when running the models as described in the [dedicated section](#models)
 
 ## Mesh generation
 The generation of the 3D PVS meshes presented in the paper is performed using [PVS-meshing-tools](https://github.com/cdaversin/PVS-meshing-tools), based on [VMTK](http://www.vmtk.org/)
