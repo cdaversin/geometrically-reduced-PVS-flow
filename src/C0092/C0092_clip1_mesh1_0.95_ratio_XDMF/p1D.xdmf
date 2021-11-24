@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries_f_46-1" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="561" TopologyType="PolyLine" NodesPerElement="2">
+          <DataItem Dimensions="561 2" NumberType="UInt" Format="HDF">p1D.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XYZ">
+          <DataItem Dimensions="562 3" Format="HDF">p1D.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="0.000000000000000e+00" />
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+        <Attribute Name="f_46-1" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="562 1" Format="HDF">p1D.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
