@@ -20,7 +20,7 @@ cd shared
 ```
 
 ### Domain A
-The A1 and A2 model can be configured and run using the corresponding scripts
+The A1 and A2 models can be configured and run using the corresponding scripts
 ```
 cd src/2D_to_1D/scripts
 python3 script_A1.py
@@ -39,7 +39,7 @@ python3 script_C12.py
 
 ## Graphs
 The graphs presented in the paper can be reproduced using [Jupyter notebook](https://jupyter.org/),
-running the corresponding scripts in a Web browser.
+running the corresponding scripts in a Web browser. Note that this can be done outside the Docker container.
 ```
 cd geometrically-reduced-PVS-flow/notebooks
 jupyter-notebook
