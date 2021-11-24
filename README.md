@@ -26,7 +26,7 @@ python3 script_A1.py
 python3 script_A2.py
 ```
 
-### Domain B and C
+### Domains B and C
 The B2, B2, B3 and C12 models can be configured and run using the corresponding scripts
 ```
 cd src/3D_to_1D/scripts
