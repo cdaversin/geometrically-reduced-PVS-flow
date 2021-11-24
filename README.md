@@ -10,11 +10,12 @@ The 1D and 3D simulations are performed using CFD models based on the [FEniCS pr
 The model used for the 3D simulations is the one used in ["The mechanisms behind perivascular fluid flow", C. Daversin-Catty, V. Vinje, K-A. Mardal, and M.E. Rognes (2020)](https://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0244442).
 
 The corresponding Python scripts can be run within the latest [FEniCS Docker container](https://quay.io/repository/fenicsproject/dev)
-with the last version of [Scipy](https://www.scipy.org/) installed :
+with the last version of [meshio](https://pypi.org/project/meshio/) and [h5py](https://www.h5py.org/) installed :
 ```
 git clone https://github.com/cdaversin/geometrically-reduced-PVS-flow
 docker run -it -v $(pwd)/geometrically-reduced-PVS-flow:/home/fenics/shared quay.io/fenicsproject/dev
-sudo pip3 install scipy --upgrade
+sudo pip3 install meshio
+sudo pip3 install h5py
 cd shared
 ```
 
@@ -43,8 +44,6 @@ running the corresponding scripts in a Web browser.
 cd geometrically-reduced-PVS-flow/notebooks
 jupyter-notebook
 ```
-Note : The data files used in the notebooks are present in the repository by default, and are re-generated
-when running the models as described in the [dedicated section](#models)
 
 ## Mesh generation
 The generation of the 3D PVS meshes presented in the paper is performed using [PVS-meshing-tools](https://github.com/cdaversin/PVS-meshing-tools), based on [VMTK](http://www.vmtk.org/)
